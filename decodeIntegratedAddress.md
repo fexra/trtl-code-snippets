@@ -2,6 +2,9 @@
 
 Find the payment ID of an integrated address.
 
+
+## Code
+
 ```javascript
 var decodedAddress = Base58.decode(recipient)
     var encodedPrefix = CryptoNote.encode_varint(ExplorerConfig.addressPrefix)
@@ -37,3 +40,7 @@ var decodedAddress = Base58.decode(recipient)
       throw 'Could not parse address'
     }
     ```
+
+    ## Credits
+
+    - iburnmycd
