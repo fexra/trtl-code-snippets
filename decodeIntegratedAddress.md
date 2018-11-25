@@ -39,8 +39,8 @@ var decodedAddress = Base58.decode(recipient)
     if (expectedChecksum !== checksum) {
       throw 'Could not parse address'
     }
-    ```
+```
 
-    ## Credits
+## Credits
 
-    - iburnmycd
+- iburnmycd
